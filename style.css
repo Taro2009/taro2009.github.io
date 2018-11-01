@@ -25,6 +25,17 @@
     /*color:#2185C5;*/
     color:#bbb;
 }
+.btn-blue_l {
+    
+    border: solid 3px #225378;
+    color: #225378;
+    
+}
+.btn-blue_l:hover {
+    /*color:#2185C5;*/
+    background-color: #225378;
+    color:#fff;
+}
 .dropdown-menu {
     color:#9A9DA0;
     background-color:#343A40;
@@ -36,6 +47,9 @@
 .navbar-dark .navbar-nav .nav-link {
     font-size:1.2rem;
 }
+.section_2 {
+    background-color: rgb(154, 199, 224);
+}
 
 @media (min-width: 992px) { 
     #jum{
@@ -45,5 +59,8 @@
         height:20rem;
     }
 
+ }
+ .home-card {
+     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.19);
  }
   
