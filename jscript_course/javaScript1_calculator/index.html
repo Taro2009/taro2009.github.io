@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <style>
+            .displayWrapper,
+            .buttonWrapper {
+                margin-bottom: 1rem;
+                }
+        </style>
+    </head>
+
+    <body>
+        <h1>Számológép</h1>
+
+        <!-- kijelző -->
+        <div class="displayWrapper">
+            <span id="displayNumber1">0</span>
+            <span id="displayOperand"></span>
+            <span id="displayNumber2"></span>
+        </div>
+
+        <!-- szám gombok -->
+        <div class="buttonWrapper">
+            <button id="button0">0</button>
+            <button id="button1">1</button>
+            <button id="button2">2</button>
+            <button id="button3">3</button>
+            <button id="button4">4</button>
+            <button id="button5">5</button>
+            <button id="button6">6</button>
+            <button id="button7">7</button>
+            <button id="button8">8</button>
+            <button id="button9">9</button>
+        </div>
+
+        <!-- művelet gombok -->
+        <div class="buttonWrapper">
+            <button id="buttonCE">CE</button>
+            <button id="buttonAdd">+</button>
+            <button id="buttonMinus">-</button>
+            <button id="buttonTimes">*</button>
+            <button id="buttonDivide">/</button>
+            <button id="buttonEquals">=</button>
+        </div>
+
+        <script src="scripts.js"></script>
+    </body>
+
+</html>
