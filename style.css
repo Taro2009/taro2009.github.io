@@ -1,247 +1,91 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&subset=latin-ext');
 
-.jumbotron_top {
-    background-color: #3c60cc;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%233c60cc' width='11' height='11'/%3E%3Crect fill='%233863ce' x='10' width='11' height='11'/%3E%3Crect fill='%233465d0' y='10' width='11' height='11'/%3E%3Crect fill='%232f68d1' x='20' width='11' height='11'/%3E%3Crect fill='%232a6ad3' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23256dd4' y='20' width='11' height='11'/%3E%3Crect fill='%231f70d6' x='30' width='11' height='11'/%3E%3Crect fill='%231872d7' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%230f75d9' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%230277da' y='30' width='11' height='11'/%3E%3Crect fill='%230079db' x='40' width='11' height='11'/%3E%3Crect fill='%23007cdd' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23007ede' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%230081df' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%230083e0' y='40' width='11' height='11'/%3E%3Crect fill='%230085e1' x='50' width='11' height='11'/%3E%3Crect fill='%230087e2' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23008ae2' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23008ce3' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23008ee4' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%230091e5' y='50' width='11' height='11'/%3E%3Crect fill='%230093e5' x='60' width='11' height='11'/%3E%3Crect fill='%230095e6' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%230097e7' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%230099e7' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23009be8' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23009ee8' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%2300a0e9' x='70' width='11' height='11'/%3E%3Crect fill='%2300a2e9' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%2300a4e9' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%2300a6ea' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%2300a8ea' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%2300aaea' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%2300acea' x='80' width='11' height='11'/%3E%3Crect fill='%2300aeeb' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%2300b0eb' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%2300b2eb' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%2300b4eb' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%2307b6eb' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%2315b8eb' x='90' width='11' height='11'/%3E%3Crect fill='%231ebaec' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%2326bcec' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%232dbeec' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%2333c0ec' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%2338c2ec' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%233ec4ec' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%2343c6ec' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%2348c8ec' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%234dcaec' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%2352ccec' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%2356ceec' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%235bcfed' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%235fd1ed' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%2364d3ed' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%2368d5ed' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%236cd7ed' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%2370d9ed' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%2375daee' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%2379dcee' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%237ddeee' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
-    background-attachment: fixed;
-    background-size: cover;
-    color:white;
-}
-.jumbotron h1{
-    
-
-    font-family: 'Montserrat Alternates', sans-serif;
-    color: white;
-    font-size: 3rem;
-
-}
-.btn-blue {
-    text-transform: uppercase;
-    background: #225378;
-    color: #fff;
-
-}
-.btn-blue:hover {
-    /*color:#2185C5;*/
-    color:#bbb;
-}
-.btn-blue_l {
-    
-    border: solid 3px #225378;
-    color: #225378;
-    
-}
-.btn-blue_l:hover {
-    /*color:#2185C5;*/
-    background-color: #225378;
-    color:#fff;
-}
-.dropdown-menu {
-    color:#9A9DA0;
-    background-color:#343A40;
-
-}
-.dropdown-item {
-    color: #9A9DA0;
-}
-.navbar-dark .navbar-nav .nav-link {
-    font-size:1.2rem;
-}
-.section_2 {
-    /* background-color: rgb(38, 188, 236); */
-    background-color: rgb(0, 138, 226);
-}
-
-@media (min-width: 992px) { 
-    #jum{
-        height:25rem;
-    }
-    .kepcsik {
-        height:20rem;
-    }
-
- }
- .home-card {
-     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.19);
- }
-
-.footerlink {
-    color: #9A9DA0;
-}
-.footertext {
-    color: #9A9DA0;
-}
-.footerlink:hover {
-    color:rgb(204, 206, 207);
-    text-decoration: none;
-}
-.bluebackgroundtext {
-    /* color:#364450; */
-    color:white;
-}
-
-.footer-line {
-    font-size: 1.5rem;
-    margin: 0 0 1em;
-    padding:0;
-    text-shadow: 1px 1px 1px black;
-    position: relative;
+html, body {
+    height: 100%;
+    margin: 0;
     overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    color:white;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  #midWrapper {
+    flex-grow: 1; /* Az 1-es arányszám, azt mondja meg, mi legyen a felosztási arány. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #midText {
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
-}
-.footer-line:before, .footer-line:after {
-    content: " ";
-    position: absolute;
+  }
+
+  #headerBar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  #backgroundvideo{
+    position: absolute; /* position:fixed-el lehet olyat, hogy a kép fix, de a szöveg gördül a háttérben.*/
     top: 50%;
-    margin-left: -999em;
-    height:2px;
-    width: 998em;
-    border-top: 1px solid white;
-}
-.footer-line:after {
-    left:auto;
-    width:999em;
-    margin: 0 0 0 1em;
-}
-
-
-
-.blog-card {
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    transition: box-shadow .20s;
-}
-
-.blog-card:hover {
-    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 9px 20px 0 rgba(0, 0, 0, 0.18);
-}
-
-/* Article page */
-.btn-facebook
-{
-    background: #3B5998;
-    border-radius: 1;
-    color: #fff;
-    border-style: solid;
-    border-color: #263961;
-}
-.btn-facebook:link, .btn-facebook:visited {
-    color:#fff;
-}
-.btn-facebook:active, .btn-facebook:hover {
-    background: #263961;
-}
-
-/* Login page */
-.login {
-    background-image: url("img/login-bg.jpg");
+    left: 50%;
+    z-index: -100;
+    min-width: 100%;
     min-height: 100%;
-    background-size:cover;
-    padding-top: 8%;
-    padding-bottom: 8%;
-}
+    width: auto;
+    height: auto;
+    transform: translate( -50%, -50%);
+  }
 
-.logincard {
-    background-color: rgba(42, 47, 51, 0.8);
-    color:white;
+  a {
+    color: white;
+    text-decoration: none;
+  }
 
-}
+  .headerlink {
+    margin: 5px 10px;
+    cursor: pointer;
+  }
 
-.logincard-header {
-    background-color: rgba(42, 47, 51, 0.8);
-    letter-spacing: 3px;
-    font-size: 1.2 rem;
-    font-weight: 600;
-    color: #eff0f7;
+  .headerlink:hover {
+    text-decoration: underline;
+  }
 
-}
+  .mainButton {
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 10px 10px;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    color: white;
+    /*border-radius: 4px;*/
+    display:inline-block; /* Ez rakta be blokkosra egyformára őket */
+    transition-duration: 0.4s;
+    border: .5px solid rgba(0, 0, 0, .5);
+    cursor: pointer;
+  }
 
-.logincard a {
-    color:white;
-}
+  .mainButton:hover {
+    background-color: rgba(0, 0, 0, .8);
+    border: .5px solid white; 
+  }
 
-.logincard .form-control {
-    background-color: rgba(42, 47, 51, 0.7);
-    border-color: transparent;
-}
-
-.logincard .form-control:focus {
-    background-color: rgba(42, 47, 51, 0.5);
-    border-color: #3384aa;
-    outline:none;
-    box-shadow:none;
-    color: #eff0f7;
-}
-
-.logincard .form-control:placeholder {
-    color:#d6d7de;
-}
-
-.loginBtnFacebook {
-background-image: linear-gradient(#4c69ba, #3b55a0);
-text-shadow: 0 -1px 0 #354c8c;
-}
-
-.loginBtnFacebook:hover, .loginBtnFacebook:focus {
-    background-image: linear-gradient(#5b7bd5, #4864b1);
-    
-    
-}
-
-
-.loginBtnGoogle {
-    background-image: linear-gradient(#dd4b39, #a7372b);
-    text-shadow: 0 -1px 0 #a7372b;
-}
-
-.loginBtnGoogle:hover, .loginBtnGoogle:focus {
-
-    background-image: linear-gradient(#e74b37, #cd4435);
-    
-    
-}
-
-.loginBtn {
-    color:white;
-}
-
-.btn-login {
-    background-color: #298e62;
-    letter-spacing: 3px;
-    font-weight: 600;
-}
-
-.btn-login:hover {
-    background-color: #2d9d6b;
-}
-
-.error-background {
-    background-image: linear-gradient(rgba(43, 45, 66, .4), rgba(43, 45, 66, .6)), url(img/error-page.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-}
-
-.content {
-    padding-top: 118px;
-    color: #cdd4de;
-}
-
-.content h1 {
-    font-weight: 900;
-    font-size: 8.5rem;
-    opacity: .6;
-
-}
-
-.content h2 {
-    font-weight: 600;
-    font-size: 2.2rem;
-    opacity: .9;
-}
-
-@media (min-width: 1200px) {
-    html{
-        font-size: 18px;
-    }
-
-}
+  #buttonWrapper {
+    margin-top:30px;
+    margin-left:auto;
+    margin-right: auto;
+  }
